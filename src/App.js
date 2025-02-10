@@ -1,6 +1,9 @@
 import React, { createContext, useState } from "react";
 import ProductSearch from "./components/ProductSearch";
 import ThemeToggle from "./components/ThemeToggle";
+import { LanguageProvider } from "./components/LanguageContext";
+import LanguageSelector from "./components/LanguageSelector"; 
+import ProductList from "./components/ProductList";
 
 // Create Theme Context
 export const ThemeContext = createContext();
@@ -9,12 +12,11 @@ export const LanguageContext = createContext();
 
 const App = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
-  const [searchTerm, setSearchTerm] = useState(""); // Added missing state
-  const [language, setLanguage] = useState("fr"); // Default language (French)
-
+  const [searchTerm, setSearchTerm] = useState(""); 
+  const [language, setLanguage] = useState("en");
   return (
     <ThemeContext.Provider value={{ isDarkTheme, setIsDarkTheme }}>
-      <LanguageContext.Provider value={{ language, setLanguage }}>
+      <LanguageProvider value={{ language, setLanguage }}>
         <div
           className={`container ${
             isDarkTheme ? "bg-dark text-light" : "bg-light"
@@ -25,14 +27,7 @@ const App = () => {
             <div className="d-flex justify-content-end gap-2">
               <ThemeToggle />
               {/* Language Selector */}
-              <select
-                value={language}
-                onChange={(e) => setLanguage(e.target.value)}
-                className="form-select w-auto"
-              >
-                <option value="fr">🇫🇷 Français</option>
-                <option value="en">🇬🇧 English</option>
-              </select>
+              <LanguageSelector />
             </div>
           </header>
 
@@ -44,7 +39,7 @@ const App = () => {
             {/* <ProductList searchTerm={searchTerm} /> */}
           </main>
         </div>
-      </LanguageContext.Provider>
+      </LanguageProvider>
     </ThemeContext.Provider>
   );
 };

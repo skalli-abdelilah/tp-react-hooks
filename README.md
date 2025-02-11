@@ -64,7 +64,7 @@ _Votre réponse pour l'exercice 1 :_
 ```
 
 <h4>UseDebounce function</h4>
-![Alt text](https://github.com/skalli-abdelilah/tp-react-hooks/blob/main/assets/usedebounce.png)
+<img src="assets/useDebounce.png" alt="Alt text" width="500">
 
 ### Exercice 2 : Context et Internationalisation
 

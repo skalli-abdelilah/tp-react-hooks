@@ -2,17 +2,14 @@ import React, { createContext, useState } from "react";
 import ProductSearch from "./components/ProductSearch";
 import ThemeToggle from "./components/ThemeToggle";
 import { LanguageProvider } from "./components/LanguageContext";
-import LanguageSelector from "./components/LanguageSelector"; 
-import ProductList from "./components/ProductList";
+import LanguageSelector from "./components/LanguageSelector";
 
-// Create Theme Context
 export const ThemeContext = createContext();
-// Create Language Context (Optional, for future translations)
 export const LanguageContext = createContext();
 
 const App = () => {
   const [isDarkTheme, setIsDarkTheme] = useState(false);
-  const [searchTerm, setSearchTerm] = useState(""); 
+  const [searchTerm, setSearchTerm] = useState("");
   const [language, setLanguage] = useState("en");
   return (
     <ThemeContext.Provider value={{ isDarkTheme, setIsDarkTheme }}>

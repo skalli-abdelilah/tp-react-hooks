@@ -54,7 +54,14 @@ const ProductSearch = ({ searchTerm, setSearchTerm }) => {
           placeholder="Rechercher un produit..."
           className={`form-control ${isDarkTheme ? "bg-dark text-light" : ""}`}
         />
-        <button className={`${isDarkTheme ? "bg-dark text-light" : ""} input-group-text`} onClick={() => { setSearchTerm("") }}>
+        <button
+          className={`${
+            isDarkTheme ? "bg-dark text-light" : ""
+          } input-group-text`}
+          onClick={() => {
+            setSearchTerm("");
+          }}
+        >
           <i className="bi bi-arrow-clockwise"></i>
         </button>
       </div>

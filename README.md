@@ -91,7 +91,7 @@ _Votre réponse pour l'exercice 3 :_
 
 <h4>UseDebounce function</h4>
 <img src="assets/usedebounce.png" alt="Alt text" width="500">
-<h4>UseDebounce function</h4>
+<h4>UseLocalStorage function</h4>
 <img src="assets/uselocalstorage.png" alt="Alt text" width="500">
 
 ### Exercice 4 : Gestion Asynchrone et Pagination
@@ -104,10 +104,8 @@ _Votre réponse pour l'exercice 3 :_
 
 _Votre réponse pour l'exercice 4 :_
 
-```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+<h4>Refresh Button</h4>
+<img src="assets/refreshbutton.png" alt="Alt text" width="500">
 
 ## Rendu
 

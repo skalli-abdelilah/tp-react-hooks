@@ -61,7 +61,7 @@ _Votre réponse pour l'exercice 1 :_
 
 ```
 Expliquez votre solution ici
-![Alt text](assets/useDebounce.png)
+<img src="assets/useDebounce.png" alt="Alt text" width="500">
 ```
 
 ### Exercice 2 : Context et Internationalisation

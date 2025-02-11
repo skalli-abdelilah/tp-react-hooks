@@ -63,8 +63,10 @@ _Votre réponse pour l'exercice 1 :_
 
 ```
 
+<h4>Product fetch</h4>
+<img src="assets/productsearch2.png" alt="Alt text" width="500">
 <h4>UseDebounce function</h4>
-<img src="assets/useDebounce.png" alt="Alt text" width="500">
+<img src="assets/usedebounce.png" alt="Alt text" width="500">
 
 ### Exercice 2 : Context et Internationalisation
 

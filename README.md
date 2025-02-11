@@ -59,10 +59,6 @@ Pour chaque exercice :
 
 _Votre réponse pour l'exercice 1 :_
 
-```
-
-```
-
 <h4>Product fetch</h4>
 <img src="assets/productsearch2.png" alt="Alt text" width="500">
 <h4>UseDebounce function</h4>
@@ -78,10 +74,10 @@ _Votre réponse pour l'exercice 1 :_
 
 _Votre réponse pour l'exercice 2 :_
 
-```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+<h4>Language Context</h4>
+<img src="assets/languagecontext.png" alt="Alt text" width="500">
+<h4>Language Selector</h4>
+<img src="assets/languageselector.png" alt="Alt text" width="500">
 
 ### Exercice 3 : Hooks Personnalisés
 
@@ -93,10 +89,10 @@ Expliquez votre solution ici
 
 _Votre réponse pour l'exercice 3 :_
 
-```
-Expliquez votre solution ici
-[Ajoutez vos captures d'écran]
-```
+<h4>UseDebounce function</h4>
+<img src="assets/usedebounce.png" alt="Alt text" width="500">
+<h4>UseDebounce function</h4>
+<img src="assets/uselocalstorage.png" alt="Alt text" width="500">
 
 ### Exercice 4 : Gestion Asynchrone et Pagination
 

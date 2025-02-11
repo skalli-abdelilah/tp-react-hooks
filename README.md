@@ -61,7 +61,8 @@ _Votre réponse pour l'exercice 1 :_
 
 ```
 Expliquez votre solution ici
-<img src="assets/useDebounce.png" alt="Alt text" width="500">
+![Alt text](https://github.com/skalli-abdelilah/tp-react-hooks/blob/main/assets/usedebounce.png)
+
 ```
 
 ### Exercice 2 : Context et Internationalisation

@@ -60,10 +60,11 @@ Pour chaque exercice :
 _Votre réponse pour l'exercice 1 :_
 
 ```
-Expliquez votre solution ici
-![Alt text](https://github.com/skalli-abdelilah/tp-react-hooks/blob/main/assets/usedebounce.png)
 
 ```
+
+<h4>UseDebounce function</h4>
+![Alt text](https://github.com/skalli-abdelilah/tp-react-hooks/blob/main/assets/usedebounce.png)
 
 ### Exercice 2 : Context et Internationalisation
 
